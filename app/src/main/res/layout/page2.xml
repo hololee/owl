@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <ImageView
+
+        android:id="@+id/gage1"
+        android:layout_width="40dp"
+        android:layout_height="250dp"
+        android:layout_alignBottom="@+id/gage2"
+        android:layout_alignLeft="@+id/relativeLayout"
+        android:layout_alignStart="@+id/relativeLayout"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gage" />
+
+    <ImageView
+        android:id="@+id/gage2"
+        android:layout_width="40dp"
+        android:layout_height="250dp"
+        android:layout_above="@+id/baseline"
+        android:layout_alignLeft="@+id/relativeLayout"
+        android:layout_alignStart="@+id/relativeLayout"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gage" />
+
+    <ImageView
+        android:id="@+id/gage3"
+        android:layout_width="40dp"
+        android:layout_height="250dp"
+        android:layout_alignBottom="@+id/gage2"
+        android:layout_toEndOf="@+id/gage2"
+        android:layout_toRightOf="@+id/gage2"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gage" />
+
+    <ImageView
+        android:id="@+id/gage4"
+        android:layout_width="40dp"
+        android:layout_height="250dp"
+        android:layout_alignBottom="@+id/gage3"
+        android:layout_toEndOf="@+id/gage3"
+        android:layout_toRightOf="@+id/gage3"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gage" />
+
+    <ImageView
+        android:id="@+id/gage5"
+        android:layout_width="40dp"
+        android:layout_height="250dp"
+        android:layout_alignBottom="@+id/gage2"
+        android:layout_toEndOf="@+id/gage4"
+        android:layout_toRightOf="@+id/gage4"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gage" />
+
+    <ImageView
+        android:id="@+id/gage6"
+        android:layout_width="40dp"
+        android:layout_height="250dp"
+        android:layout_alignBottom="@+id/gage2"
+        android:layout_toEndOf="@+id/gage5"
+        android:layout_toRightOf="@+id/gage5"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gage" />
+
+    <ImageView
+        android:id="@+id/gage7"
+        android:layout_width="40dp"
+        android:layout_height="250dp"
+        android:layout_alignBottom="@+id/gage2"
+        android:layout_toEndOf="@+id/gage6"
+        android:layout_toRightOf="@+id/gage6"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gage" />
+
+
+    <View
+        android:id="@+id/Whiteback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/baseline"
+        android:background="#fffae1" />
+
+
+
+
+    <TextView
+        android:textSize="11dp"
+        android:id = "@+id/gageState1"
+        android:textColor="#ffffe456"
+        android:textStyle="bold"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/baseline"
+        android:layout_alignLeft="@+id/gage1"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="24.0" />
+    <TextView
+        android:textSize="11dp"
+        android:id = "@+id/gageState2"
+        android:textColor="#ffffe456"
+        android:textStyle="bold"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/baseline"
+        android:layout_alignLeft="@+id/gage2"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="24.0" />
+    <TextView
+        android:textSize="11dp"
+        android:id = "@+id/gageState3"
+        android:textColor="#ffffe456"
+        android:textStyle="bold"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/baseline"
+        android:layout_alignLeft="@+id/gage3"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="24.0" />
+    <TextView
+        android:textSize="11dp"
+        android:id = "@+id/gageState4"
+        android:textColor="#ffffe456"
+        android:textStyle="bold"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/baseline"
+        android:layout_alignLeft="@+id/gage4"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="24.0" />
+    <TextView
+        android:textSize="11dp"
+        android:id = "@+id/gageState5"
+        android:textColor="#ffffe456"
+        android:textStyle="bold"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/baseline"
+        android:layout_alignLeft="@+id/gage5"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="24.0" />
+    <TextView
+        android:textSize="11dp"
+        android:id = "@+id/gageState6"
+        android:textColor="#ffffe456"
+        android:textStyle="bold"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/baseline"
+        android:layout_alignLeft="@+id/gage6"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="24.0" />
+    <TextView
+        android:textSize="11dp"
+        android:id = "@+id/gageState7"
+        android:textColor="#ffffe456"
+        android:textStyle="bold"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/baseline"
+        android:layout_alignLeft="@+id/gage7"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="24.0" />
+
+
+
+    <View
+        android:id="@+id/baseline"
+        android:layout_width="280dp"
+        android:layout_height="2dp"
+        android:layout_above="@id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:background="#ff969696" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp">
+
+
+        <TextView
+            android:id="@+id/date1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Sun"
+            android:textColor="#fff33a31" />
+
+        <TextView
+            android:id="@+id/date2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/date1"
+            android:layout_alignBottom="@+id/date1"
+            android:layout_toEndOf="@+id/date1"
+            android:layout_toRightOf="@+id/date1"
+            android:gravity="center"
+            android:text="@string/Mon"
+            android:textColor="#c01b1c1b" />
+
+        <TextView
+            android:id="@+id/date3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/date2"
+            android:layout_toEndOf="@+id/date2"
+            android:layout_toRightOf="@+id/date2"
+            android:gravity="center"
+            android:text="@string/Tue"
+            android:textColor="#c01b1c1b" />
+
+        <TextView
+            android:id="@+id/date4"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+
+            android:layout_toEndOf="@+id/date3"
+            android:layout_toRightOf="@+id/date3"
+            android:gravity="center"
+            android:text="@string/Wed"
+            android:textColor="#c01b1c1b" />
+
+        <TextView
+            android:id="@+id/date5"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+
+            android:layout_toEndOf="@+id/date4"
+            android:layout_toRightOf="@+id/date4"
+            android:gravity="center"
+            android:text="@string/Thu"
+            android:textColor="#c01b1c1b" />
+
+        <TextView
+            android:id="@+id/date6"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/date5"
+            android:layout_toEndOf="@+id/date5"
+            android:layout_toRightOf="@+id/date5"
+            android:gravity="center"
+            android:text="@string/Fri"
+            android:textColor="#c01b1c1b"
+            />
+
+        <TextView
+            android:id="@+id/date7"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/date6"
+            android:layout_toEndOf="@+id/date6"
+            android:layout_toRightOf="@+id/date6"
+            android:gravity="center"
+            android:text="@string/Sat"
+            android:textColor="#c0112299"
+           />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Hour"
+        android:id="@+id/textView2"
+        android:textSize="11dp"
+        android:textColor="#ffb75f00"
+        android:layout_above="@+id/baseline"
+        android:layout_toLeftOf="@+id/gage1"
+        android:layout_toStartOf="@+id/gage1" />
+
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">OWL</string>
+
+
+
+    <string name="title1">24 Hour</string>
+    <string name="title2">Used Time</string>
+    <string name="title3">hours </string>
+    <string name="title4">minutes </string>
+    <string name="title5">Used.</string>
+    <string name="Mon">Mon</string>
+    <string name="Fri">Fri</string>
+    <string name="Sat">Sat</string>
+    <string name="Sun">Sun</string>
+    <string name="Thu">Thu</string>
+    <string name="Tue">Tue</string>
+    <string name="Wed">Wed</string>
+    <string name="Hour">(Hour)</string>
+    <string name="Count">Count on</string>
+    <string name="text1">Owl makes it measures the phone usage.</string>
+    <string name="text2">Owl gives to measure the operating time per day,</string>
+    <string name="text3">you can learn usage patterns for a week.</string>
+    <string name="text4">If you replace your phone time, can cause error!!!</string>
+    <string name="update1">Owl Mobile phone usage measurement.</string>
+    <string name="text5">error report</string>
+    <string name="text6"> Status bar notification</string>
+    <string name="button1">apply</string>
+    <string name="button2">cancel</string>
+    <string name="button3">back</string>
+    <string name="toast1">Apply.</string>
+    <string name="first1">Day Time Measurement</string>
+    <string name="first2">Screen on count per day</string>
+    <string name="first3">Check weekly usage patterns</string>
+    <string name="first4">Through the Settings button</string>
+    <string name="first5">can set the status bar notification.</string>
+
+
+</resources>

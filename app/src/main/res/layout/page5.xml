@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <ImageView
+        android:src = "@drawable/about_title"
+        android:layout_width="250dp"
+        android:layout_height="110dp"
+        android:id="@+id/owlTitle"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+
+        android:textColor="#535353"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text1"
+        android:id="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/owlTitle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#535353"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text2"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#535353"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text3"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:textColor="#ff1e19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text4"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#535353"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lccandol@naver.com"
+        android:id="@+id/textView6"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#535353"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text5"
+        android:id="@+id/textView7"
+        android:layout_above="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/textView7" >
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+</RelativeLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id = "@+id/update"
+        android:textColor="#535353"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize = "25dp"
+        android:textStyle="bold"
+        android:text = "UPDATE"
+        android:layout_alignTop="@+id/scrollView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+            android:id = "@+id/update1"
+        android:textColor="#535353"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize = "13dp"
+
+            android:text = "[ver 1.0]"
+        android:layout_below="@+id/update"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#535353"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize = "13dp"
+
+        android:text = "@string/update1"
+        android:layout_below="@+id/update1"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
